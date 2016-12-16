@@ -3,7 +3,8 @@
 			  android:layout_width="match_parent"
 			  android:layout_height="match_parent"
 			  android:background="#0FF"
-			  android:orientation="vertical">
+			  android:orientation="vertical"
+	          android:padding="10dp">
 
 	<TextView
 		android:layout_width="wrap_content"
@@ -11,5 +12,37 @@
 		android:layout_margin="10dp"
 		android:text="Fragment A"
 		android:textColor="@android:color/black"/>
+
+	<TextView
+		android:text="TextView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView" />
+
+	<Button
+		android:text="Login"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button" />
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:text="Name"
+		android:ems="10"
+		android:id="@+id/editText" />
+
+	<RadioButton
+		android:text="RadioButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/radioButton" />
+
+	<CheckBox
+		android:text="CheckBox"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/checkBox" />
 
 </LinearLayout>
